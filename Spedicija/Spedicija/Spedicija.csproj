@@ -124,6 +124,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Banka.cs" />
+    <Compile Include="Models\CarniskaTarifa.cs" />
+    <Compile Include="Models\IzlazniRacun.cs" />
+    <Compile Include="Models\JCI.cs" />
+    <Compile Include="Models\Klijent.cs" />
+    <Compile Include="Models\PratecaDokumentacija.cs" />
+    <Compile Include="Models\Racun.cs" />
+    <Compile Include="Models\Roba.cs" />
+    <Compile Include="Models\UlazniRacun.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -165,7 +174,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
